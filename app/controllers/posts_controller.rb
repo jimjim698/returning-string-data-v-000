@@ -8,9 +8,10 @@ class PostsController < ApplicationController
   def body
     post = Post.find(params[:id])
     render plain: post.description
-  end 
+  end
 
   def show
+    
   end
 
   def new
